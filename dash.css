@@ -1,0 +1,146 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-style: san serif;
+  box-sizing: border-box;
+}
+.first {
+  background-color: #1f2937;
+  color: white;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.links a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+.links a:hover {
+  background-color: #E5E7EB;
+  color: black;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 8px;
+  list-style: none;
+}
+
+.sub {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap; 
+  margin-bottom: 20px;
+}
+.sub img {
+  max-width: 50%;
+  margin-right: 20px;
+}
+
+.text {
+  margin-right: 20px;
+  flex: 1;
+  max-width: 60%;
+}
+ button {
+  width: 20%;
+  padding: 8px;
+  background-color: blue;
+  font-size: 18px;
+  font-weight: bolder;
+  color: ghostwhite;
+ }
+ .button-class {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+ }
+
+ .middle {
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: black;
+ }
+ h2 {
+  font-size: 32px;
+  font-weight: bolder;
+  color: #1F2937;
+ }
+ .flex-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+ }
+ .flex-container .one {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+ }
+  .flex-container .two {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+ .flex-container .three {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+ .flex-container .four {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+ .flex-container .one img{
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+ }
+ .flex-container .two img{
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+}
+.flex-container .three img{
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+}
+.flex-container .four img{
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+ }
+
+ .close {
+  margin-top: 20px;
+  background-color: #E5E7EB;
+  font-size: 26px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1F2937;
+ }
+ .footer {
+  margin: 40px;
+  padding: 10px;
+  background-color: #1F2937;
+  color: white;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+ }
+
+}
